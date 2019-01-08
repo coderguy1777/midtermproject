@@ -27,7 +27,7 @@
 </script>
 <div align = "center" class="divclass">
     <ul>
-        <li><label><input type="radio" name="quiz" id="0" value="2" onclick="onClick('Question4.html', test())">Illinois</label></li>
+        <li><label><input type="radio" name="quiz" id="0" value="2" onclick="onClick('Question4.html', test())">Kentucky</label></li>
         <script type="text/javascript">
             function onClick(url) {
                 var win = window.open(url, '_blank')
@@ -36,9 +36,24 @@
                 alert('That is correct!')
             }
         </script>
-        <li><label><input type="radio" name="quiz" id="1" value="2">Nebraska</label></li>
-        <li><label><input type="radio" name="quiz" id="2" value="2"> Indiana</label></li>
-        <li><label><input type="radio" name="quiz" id="3" value="3"> Kentucky</label></li>
+        <li><label><input type="radio" name="quiz" id="1" value="2" onclick="test987()">Nebraska</label></li>
+        <script type = "text/javascript">
+            function test987() {
+                alert('That is wrong, you stupid.')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="2" value="2" onclick="test321()"> Indiana</label></li>
+        <script type="text/javascript">
+            function test321() {
+                alert('That is also wrong, jesus you are dumb.')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="3" value="3" onclick="test1212()"> Illinois</label></li>
+        <script type="text/javascript">
+            function test1212() {
+                alert('.........')
+            }
+        </script>
     </ul>
 </div>
 </body>

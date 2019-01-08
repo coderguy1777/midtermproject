@@ -8,6 +8,9 @@
     <title>Question 2</title>
 </head>
 <body>
+<audio id = "eagleanthem">
+    <source src="audio.mp3" type="audio/mp3">
+</audio>
 <div class="question1container-cover">
     <div class="question1container">
         <h1>What was Lincoln’s main job outside of politics?</h1>
@@ -36,9 +39,29 @@
                 alert('That is correct!')
             }
         </script>
-        <li><label><input type="radio" name="quiz" id="1" value="2"> Doctor</label></li>
-        <li><label><input type="radio" name="quiz" id="2" value="2"> Chemist</label></li>
-        <li><label><input type="radio" name="quiz" id="3" value="3"> Eagles Quarterback</label></li>
+        <li><label><input type="radio" name="quiz" id="1" value="2" onclick="test1()"> Doctor</label></li>
+        <script type="text/javascript">
+            function test1() {
+                alert('Wrong, try again.')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="2" value="2" onclick="test2()"> Chemist</label></li>
+        <script type="text/javascript">
+            function test2() {
+                alert('Oh dear god, that is not even close, wow you are stupid')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="3" value="3" onclick="audiotest()"> Eagles Quarterback</label></li>\
+        <script type="text/javascript">
+            function audiotest() {
+                alert('Sadly no, Lincoln was not around for the time of the worlds best football team that is 10^1000 power better than the giants who are terrible. (Sorry Max, had to say the truth)')
+                setTimeout(audioplay(), 2000);
+            }
+            function audioplay() {
+                var audio = new Audio('audio.mp3');
+                audio.play();
+            }
+        </script>
     </ul>
 </div>
 </body>

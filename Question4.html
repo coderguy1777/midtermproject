@@ -27,7 +27,7 @@
 </script>
 <div align = "center" class="divclass">
     <ul>
-        <li><label><input type="radio" name="quiz" id="0" value="2" onclick="onClick('MainFrontEndFile.html', test())"> Illinois state representative</label></li>
+        <li><label><input type="radio" name="quiz" id="0" value="2" onclick="onClick('index.html', test())"> Illinois state representative</label></li>
         <script type="text/javascript">
             function onClick(url) {
                 var win = window.open(url, '_blank')
@@ -36,9 +36,24 @@
                 alert('That is correct!')
             }
         </script>
-        <li><label><input type="radio" name="quiz" id="1" value="2"> Mayor of Springfield, Illinois</label></li>
-        <li><label><input type="radio" name="quiz" id="2" value="2"> Lieutenant governor of Illinois </label></li>
-        <li><label><input type="radio" name="quiz" id="3" value="3"> Illinois US Representative </label></li>
+        <li><label><input type="radio" name="quiz" id="1" value="2" onclick="test12()"> Mayor of Springfield, Illinois</label></li>
+        <script type="text/javascript">
+            function test12() {
+                alert('Wrong, try again.')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="2" value="2" onclick="test44()"> Lieutenant governor of Illinois </label></li>
+        <script type="text/javascript">
+            function test44() {
+                alert('Very wrong, jesus you are scaring me.')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="3" value="3" onclick="test32()"> Illinois US Representative </label>
+        <script type="text/javascript">
+            function test32() {
+                alert('You need to see if theres anything in your head, aka a brian, smh.')
+            }
+        </script>
     </ul>
 </div>
 </body>
