@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Question1StyleSheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Righteous" rel="stylesheet">
+    <link href="Question1StyleSheet.css">
+    <title>Question 3</title>
+</head>
+<body>
+<div class="question1container-cover">
+    <div class="question1container">
+        <h1>What state was Lincoln born in?</h1>
+    </div>
+</div>
+<hr class="hrclass">
+<div class="leftcontainer-cover">
+    <div class="leftcontainer">
+        <p>Question 3:</p>
+    </div>
+</div>
+<button class="nextbutton" onclick="onClick('Question4.html')">Next</button>
+<script type="text/javascript">
+    function onClick(url) {
+        var win = window.open(url, '_blank')
+    }
+</script>
+<div align = "center" class="divclass">
+    <ul>
+        <li><label><input type="radio" name="quiz" id="0" value="2" onclick="onClick('Question4.html', test())">Illinois</label></li>
+        <script type="text/javascript">
+            function onClick(url) {
+                var win = window.open(url, '_blank')
+            }
+            function test() {
+                alert('That is correct!')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="1" value="2">Nebraska</label></li>
+        <li><label><input type="radio" name="quiz" id="2" value="2"> Indiana</label></li>
+        <li><label><input type="radio" name="quiz" id="3" value="3"> Kentucky</label></li>
+    </ul>
+</div>
+</body>
+</html>

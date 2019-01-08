@@ -1,0 +1,90 @@
+body, html {
+    height: 100%;
+}
+
+.bgclass {
+    background-image: url("http://www.victoriamedina.com/wp-content/uploads/2016/02/Abraham-Lincoln-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+
+.container2-cover {
+    position: relative;
+    margin-left: 590px;
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+    max-width: 40rem;
+}
+
+.container1-cover {
+    position: relative;
+    margin-left: 340px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    max-width: 70rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-wrap: normal;
+    background-color: red;
+    border-radius: 10px;
+    -webkit-text-fill-color: black;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6f37;
+    -webkit-text-fill-color: #accfff;
+    font-family: "Verdana", sans-serif;
+    border-radius: 20px;
+    font-size: 30px;
+    text-wrap: normal;
+    text-align: center;
+}
+
+.buttonclass-cover {
+    position: relative;
+    margin-left: 590px;
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    max-width: 40rem;
+}
+
+.buttonclass {
+    display: flex;
+    justify-content: center;
+    background-color: #ff6f37;
+    -webkit-text-fill-color: #474a51;
+    font-family: "Verdana", sans-serif;
+    border-radius: 20px;
+    font-size: 90px;
+    text-wrap: normal;
+    text-align: center;
+}
+
+button {
+    -webkit-text-fill-color: #040405;
+    font-family: "Righteous", sans-serif;
+    border-radius: 20px;
+    background-color: red;
+    font-size: 40px;
+    text-wrap: normal;
+    border-width: 0;
+    text-align: center;
+}

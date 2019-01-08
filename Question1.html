@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Question1StyleSheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Righteous" rel="stylesheet">
+    <title>Question 1</title>
+</head>
+<body>
+<div class="question1container-cover">
+    <div class="question1container">
+        <h1>Which on of these questions did Abraham Lincoln and Stephen Douglas Debate about?</h1>
+    </div>
+</div>
+<hr class="hrclass">
+<div class="leftcontainer-cover">
+    <div class="leftcontainer">
+        <p>Question 1:</p>
+    </div>
+</div>
+<button class="nextbutton">Next</button>
+<div align = "center" class="divclass">
+    <ul>
+        <li><label><input type="radio" name="quiz" id="0" value="2" onclick="onClick('Question2.html', test())"> Kansas and Nebraska Act</label></li>
+        <script type="text/javascript">
+            function onClick(url) {
+                var win = window.open(url, '_blank')
+            }
+            function test() {
+                alert('That is correct!')
+            }
+        </script>
+        <li><label><input type="radio" name="quiz" id="1" value="2"> Alien and Sedition Act</label></li>
+        <li><label><input type="radio" name="quiz" id="2" value="2"> Fugitive Slave Act</label></li>
+        <li><label><input type="radio" name="quiz" id="3" value="3"> Stamp Act</label></li>
+    </ul>
+</div>
+</body>
+</html>
